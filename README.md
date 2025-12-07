@@ -2,7 +2,7 @@
 
 Bu proje, **Yusuf Ali Aşkın**'ın kişisel portfolyo web sitesidir. Modern, responsive (mobil uyumlu) ve kullanıcı dostu bir arayüz ile geliştiricinin yeteneklerini, projelerini ve iletişim bilgilerini sergilemek amacıyla tasarlanmıştır.
 
-🔗 **Canlı Önizleme:** [Link Eklenecek]
+🔗 **Canlı Önizleme:** [https://yusufaliaskin.com.tr/]
 
 ---
 
@@ -75,3 +75,4 @@ Full Stack Geliştirici & Siber Güvenlik Uzmanı
 
 ---
 &copy; 2025 Yusuf Ali Aşkın. Tüm hakları saklıdır.
+
