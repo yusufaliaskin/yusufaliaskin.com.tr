@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Ali Aşkın | Yazılım Geliştirici & Siber Güvenlik Uzmanı</title>
+    <link rel="icon" type="image/png" href="/img/hero4.png">
+    <meta name="description"
+        content="Yusuf Ali Aşkın - Yazılım, siber güvenlik, ağ sistemleri ve yapay zeka alanlarında uzmanlaşmış geliştirici portfolyosu.">
+    <!-- Google Fontları -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome İkonları -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Özel CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Yükleniyor Ekranı -->
+    <div class="loader-wrapper">
+        <div class="loader-content">
+            <svg class="wolf-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#00bcd4;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+                    </linearGradient>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="2.5" result="coloredBlur" />
+                        <feMerge>
+                            <feMergeNode in="coloredBlur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+                <!-- Wolf Head Geometric Shape -->
+                <path class="wolf-path" d="M20 20 L40 50 L50 90 L60 50 L80 20 L60 35 L50 25 L40 35 Z" fill="none"
+                    stroke="#00bcd4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <!-- Inner Details -->
+                <path class="wolf-detail" d="M40 50 L50 70 L60 50" fill="none" stroke="#00bcd4" stroke-width="1"
+                    opacity="0.5" />
+            </svg>
+
+        </div>
+    </div>
+
+    <!-- Üst Bilgi (Header) -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <span>Yusuf Ali Aşkın</span>
+                </a>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Anasayfa</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Profil</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Uzmanlıklar</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projeler</a></li>
+                        <li class="nav-item"><a href="#goals" class="nav-link">Hedefler</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link btn-contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Karşılama Bölümü (Hero) -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('img/hero1.png')"></div>
+            <div class="slide" style="background-image: url('img/hero2.png')"></div>
+            <div class="slide" style="background-image: url('img/hero3.png')"></div>
+        </div>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Full Stack Geliştirici &<br>Siber Güvenlik Uzmanı</h1>
+            <p class="hero-subtitle">Yazılım, ağ güvenliği ve otomasyon sistemlerinde 5 yıllık profesyonel deneyim.
+                <br>Güvenlik şansa bırakılamaz.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="cta-button">Hakkımda <i class="fas fa-user"></i></a>
+                <a href="#contact" class="btn-outline"
+                    style="color: #fff; border-color: #fff; margin-left: 10px;">İletişime Geç</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kim Olduğum</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" style="grid-column: span 2; max-width: 900px; margin: 0 auto;">
+                    <p class="lead-text">
+                        Ben <strong>Yusuf Ali Aşkın</strong>. Yazılım, siber güvenlik ve ağ sistemleri alanlarında
+                        uzmanlaşmış bir
+                        geliştirici ve sistem uzmanıyım. Yaklaşık <strong>5 yıldır</strong> aktif olarak IT, yazılım
+                        geliştirme, ağ
+                        güvenliği ve otomasyon sistemleri üzerine çalışıyorum.
+                    </p>
+                    <p>
+                        Kendimi sürekli geliştiren, yeni teknolojilere hızla adapte olan, analitik düşünebilen ve çözüm
+                        odaklı çalışan bir profesyonelim. Kariyerim boyunca hem bireysel hem de profesyonel projelerde
+                        <strong>frontend, backend, ağ güvenliği, otomasyon, yapay zeka</strong> ve <strong>sistem
+                            yönetimi</strong> alanlarında aktif
+                        görev aldım.
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yetenekler Bölümü -->
+    <section id="skills" class="section services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Uzmanlık Alanlarım</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid">
+                <!-- Card 1: Yazılım & Web -->
+                <div class="service-card simple-card">
+                    <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                    <h4>Yazılım & Web</h4>
+                    <div class="skill-tags">
+                        <span>Python</span> <span>JavaScript</span> <span>React</span> <span>C#</span>
+                        <span>Flask</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+                <!-- Card 2: Siber Güvenlik -->
+                <div class="service-card simple-card">
+                    <div class="icon"><i class="fas fa-user-shield"></i></div>
+                    <h4>Siber Güvenlik</h4>
+                    <div class="skill-tags">
+                        <span>Pentest</span> <span>Firewall</span> <span>IDS/IPS</span> <span>Zafiyet Analizi</span>
+                        <span>Web Güvenliği</span>
+                    </div>
+                </div>
+                <!-- Card 3: Sistem & Ağ -->
+                <div class="service-card simple-card">
+                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                    <h4>Sistem & Ağ</h4>
+                    <div class="skill-tags">
+                        <span>TCP/IP</span> <span>Trafik Analizi</span> <span>Modem/Router</span>
+                        <span>Linux/Bash</span>
+                        <span>API</span>
+                    </div>
+                </div>
+                <!-- Card 4: AI & Otomasyon -->
+                <div class="service-card simple-card">
+                    <div class="icon"><i class="fas fa-robot"></i></div>
+                    <h4>Yapay Zeka</h4>
+                    <div class="skill-tags">
+                        <span>Bot Geliştirme</span> <span>Veri Toplama</span> <span>Otomasyon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeler Bölümü -->
+    <section id="projects" class="section rooms">
+        <div class="container">
+            <div class="section-title">
+                <h2>Geliştirdiğim Proje Türleri</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="rooms-grid">
+                <!-- Proje 1 -->
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="img/hero3.png" alt="Siber Güvenlik">
+                        <span class="price">Güvenlik</span>
+                    </div>
+                    <div class="room-info">
+                        <h3>Ağ & Güvenlik Yazılımları</h3>
+                        <p style="margin-bottom: 15px; color: #64748b;">Ağ tarama araçları, trafik analiz yazılımları ve
+                            siber güvenlik dashboardları.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-filter"></i> Paket Analizi</li>
+                            <li><i class="fas fa-map"></i> Topoloji Haritalama</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Proje 2 -->
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="img/hero1.png" alt="AI Bot">
+                        <span class="price">Yapay Zeka</span>
+                    </div>
+                    <div class="room-info">
+                        <h3>AI & Bot Sistemleri</h3>
+                        <p style="margin-bottom: 15px; color: #64748b;">Yapay zeka sohbet botları, borsa analiz/tahmin
+                            botları ve otomasyon araçları.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-brain"></i> Algoritmik Tahmin</li>
+                            <li><i class="fas fa-robot"></i> Otomatik Yanıt</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Proje 3 -->
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="img/hero2.png" alt="Web Systems">
+                        <span class="price">Web Sistemleri</span>
+                    </div>
+                    <div class="room-info">
+                        <h3>Gelişmiş Web Panelleri</h3>
+                        <p style="margin-bottom: 15px; color: #64748b;">Modem yönetim panelleri, cihaz takip sistemleri,
+                            e-ticaret altyapıları ve arama motorları.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-server"></i> Admin Dashboard</li>
+                            <li><i class="fas fa-database"></i> Veri Yönetimi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hedefler & Çalışma Stili -->
+    <section id="goals" class="section testimonials">
+        <div class="overlay-dark"></div>
+        <div class="container">
+            <div class="section-title white">
+                <h2>Hedefler & Vizyon</h2>
+            </div>
+            <div class="testimonial-slider">
+                <!-- Hedefler -->
+                <div class="testimonial-slide active">
+                    <div class="quote"><i class="fas fa-bullseye"></i></div>
+                    <h3 style="margin-bottom: 20px;">Gelecek Hedeflerim</h3>
+                    <p class="comment" style="font-size: 1.1rem;">"Uluslararası siber güvenlik projelerine imza atmak,
+                        kendi yazılım markamı oluşturmak ve yapay zeka destekli savunma sistemleri geliştirerek dünyaya
+                        ihraç etmek."</p>
+                </div>
+                <!-- Çalışma Stili -->
+                <div class="testimonial-slide">
+                    <div class="quote"><i class="fas fa-briefcase"></i></div>
+                    <h3 style="margin-bottom: 20px;">Çalışma Stilim</h3>
+                    <p class="comment" style="font-size: 1.1rem;">"Analitik düşünür, hızlı öğrenir ve detaylara önem
+                        veririm. Sorunlara çözüm odaklı yaklaşır, hem takım içinde hem de bireysel olarak yüksek
+                        performansla çalışırım."</p>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Bana Ulaşın</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-posta</h4>
+                            <p>yusufaliaskin@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/yusufaliaskin</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/yusufaliaskin</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Adınız Soyadınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Proje detayları veya mesajınız..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button" style="width: 100%;">Mesaj Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alt Bilgi (Footer) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>YUSUF ALİ AŞKIN</h3>
+                    <p>Teknolojinin sınırlarını zorlayan güvenli ve akıllı çözümler.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Site Haritası</h3>
+                    <ul>
+                        <li><a href="#home">Anasayfa</a></li>
+                        <li><a href="#about">Profil</a></li>
+                        <li><a href="#skills">Uzmanlıklar</a></li>
+                        <li><a href="#projects">Projeler</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Sosyal Medya</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/yusufaliaskin"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yusufaliaskin"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/yusufaliaskin"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yusuf Ali Aşkın. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Bileşeni -->
+    <div id="whatsapp-widget" class="whatsapp-widget">
+        <div class="whatsapp-chat-box" id="whatsappChatBox">
+            <div class="whatsapp-header">
+                <div class="whatsapp-header-content">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </div>
+                <div class="whatsapp-close" id="whatsappClose">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="whatsapp-body">
+                <div class="whatsapp-message">
+                    <p>Merhaba 👋 Size nasıl yardımcı olabiliriz?</p>
+                </div>
+            </div>
+            <div class="whatsapp-footer">
+                <a href="javascript:void(0)" class="whatsapp-start-btn" id="whatsappStartBtn">
+                    Sohbet Başlat <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+        </div>
+        <div class="whatsapp-icon-btn" id="whatsappIconBtn">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <!-- Komut Dosyaları (Scripts) -->
+    <script src="script.js"></script>
+</body>
+
+</html>
